@@ -1,0 +1,12 @@
+Source: sound-switcher
+Section: sound
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.3
+
+Package: sound-switcher
+Architecture: all
+Description: Switches between analog and HDMI sound output
+ This is a simple script and desktop file for fast switching between analog and
+ HDMI sound output.

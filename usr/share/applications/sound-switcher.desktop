@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Sound Switcher
+GenericName=Switch between analog and HDMI sound output
+GenericName[de]=zwischen analoger und HDMI-Tonausgabe umschalten
+Exec=sound-switcher
+Icon=system-switch-user
+StartupNotify=false
+Type=Application
+Categories=AudioVideo;

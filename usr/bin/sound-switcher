@@ -1,0 +1,14 @@
+#!/bin/sh
+
+ANALOG="output:analog-stereo+input:analog-stereo"
+HDMI="output:hdmi-stereo+input:analog-stereo"
+
+ACTIVE_PROFILE="$(LC_ALL=C pactl list | grep "Active Profile" | awk '{ print $3 }')"
+if [ $ACTIVE_PROFILE = $ANALOG ]
+then
+	echo "switching to HDMI output..."
+	pactl set-card-profile 0 $HDMI
+else
+	echo "switching to analog output..."
+	pactl set-card-profile 0 $ANALOG
+fi
