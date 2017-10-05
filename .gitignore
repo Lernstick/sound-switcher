@@ -1,0 +1,4 @@
+debian/files
+debian/sound-switcher.debhelper.log
+debian/sound-switcher.substvars
+debian/sound-switcher/
