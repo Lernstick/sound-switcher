@@ -6,6 +6,7 @@ Build-Depends: debhelper (>= 9)
 Standards-Version: 3.7.3
 
 Package: sound-switcher
+Depends: pulseaudio-utils, oxygen-icon-theme
 Architecture: all
 Description: Switches between analog and HDMI sound output
  This is a simple script and desktop file for fast switching between analog and
