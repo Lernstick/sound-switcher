@@ -1,3 +1,12 @@
+sound-switcher (2) lernstick-9; urgency=medium
+
+  * [b9bb79] added .gitignore file
+  * [3d42d2] made generic text in desktop file a bit shorter
+  * [b9aadb] use full path to icon file (otherwise a different svg icon is shown)
+  * [8112cc] added dependencies
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 13 Apr 2018 13:09:24 +0200
+
 sound-switcher (1) lernstick-8; urgency=low
 
   * Initial release
